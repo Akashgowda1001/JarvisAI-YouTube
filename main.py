@@ -81,7 +81,7 @@ if __name__ == '__main__':
             if f"Open {site[0]}".lower() in query.lower():
                 say(f"Opening {site[0]} sir...")
                 webbrowser.open(site[1])
-        # todo: Add a feature to play a specific song
+             #todo: Add a feature to play a specific song
         if "open music" in query:
             musicPath = "/Users/harry/Downloads/downfall-21371.mp3"
             os.system(f"open {musicPath}")
